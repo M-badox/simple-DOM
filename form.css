@@ -1,0 +1,92 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #3EECAC;
+    background-image: linear-gradient(to bottom right, #3EECAC 0%, #EE74E1 100%); 
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+/*giving style header*/
+#sect1
+{
+    background-color: aquamarine;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 19px;
+}
+#search #text,
+#sect2 div #fill
+{
+    background-color: rgb(252, 249, 249);
+    padding: 7px 32px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px #7BB964 ;
+    border-radius: 6%;
+}
+
+/*adding style to the body*/
+#sect2
+{
+    background-image: linear-gradient(to bottom right,#7BB964,rgb(240, 169, 169));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*height: 300px;*/
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 18px;
+    margin-bottom: 40px;
+}
+#sect2 div
+#sect form
+{
+    margin-bottom:20px;
+}
+#sect2 #add input
+{
+    font-size: 20px;
+}
+#sect2 #add #sub
+{
+    background-color:aquamarine;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 0px 6px;
+    border-radius:10% ;
+}
+#sect2 #modules .mod
+{
+    border: 1px solid rgb(16, 19, 22);
+    padding: 8px 20px;
+    border-radius: 7%;
+}
+#sect2 #modules .mod .btn0
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    float: right;
+}
+#last h1
+{
+   text-align: center;
+   font-family: cursive;
+   padding-bottom:30px;
+   opacity: .5;
+   transition: .3s;
+}
+#last h1:hover
+{
+    opacity: 1;
+    font-size:40px ;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
